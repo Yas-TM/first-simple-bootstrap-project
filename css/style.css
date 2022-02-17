@@ -1,0 +1,444 @@
+@font-face {
+	font-family: 'myFont';										/* The main project Font */
+	src: url("../fonts/ionicons.eot"),
+		 url("../fonts/ionicons.woff2") format('woff2'), 
+		 url('../fonts/ionicons.woff') format('woff'), 
+		 url('../fonts/ionicons.ttf')  format('truetype'), 
+		 url('../fonts/ionicons.svg') format('svg'); 
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Assistant:wght@200;300;400;500;600;800&display=swap'); /* created with this font */
+
+*{
+	font-family: 'Assistant', sans-serif;
+	/* font-family: 'myFont'; */
+	box-sizing: border-box;
+}
+
+.blue{
+	color: #333366;
+
+}
+
+.gray{
+	color: #333;
+}
+
+h2{
+	font-weight: 800;
+	font-size: 2.2rem;
+	margin-bottom: 15px;
+}
+
+h3{
+	font-size: 1.1rem;
+	font-weight: bold;
+}
+
+/** header **/
+
+.web-header-section .navbar a:first-child{
+	font-weight: bold;
+
+}
+
+.web-header-section{
+	padding: 15px 0;
+}
+
+.web-header-section ul li{
+	padding: 0 7px;
+}
+
+.web-header-section .btn-down{
+	border-width: 2px;
+	width: 150px;
+	font-size: .8rem;
+	color: rgb(65, 65, 65);
+}
+
+.navbar-nav a{
+	font-size: 15px;
+	color: #8c8c8c;
+}
+
+.navbar-nav a:hover{
+	color: #333366;
+	position: relative;
+	top: 1px;
+}
+
+a{
+	-webkit-transition: all .5s ease-in-out;
+	-moz-transition: all .5s ease-in-out;
+	-o-transition: all .5s ease-in-out;
+	transition: all .5s ease-in-out;
+}
+
+a:hover{
+	text-decoration: none;
+}
+
+a.btn-down:hover{
+	color: #fff;
+	background-color: #333366;
+	border-color: #333366;
+}
+
+
+/*** first section **/
+
+.btn-green{
+	background-color: #21bf72;
+	width: 180px;
+	color: #fff;
+	padding: 10px 25px;
+}
+
+.btn-green:hover{
+	color: #fff;
+}
+
+.web-first-section p{
+	font-size: .9rem;
+	color: #999;
+}
+
+.btn-blue-info{
+	width: 150px;
+	border-width: 2px;
+	padding: 8px 20px;
+}
+
+.web-first-section{
+	background: #f0f5f9;
+	padding: 75px 0 90px;
+}
+
+h1{
+	font-weight: 800;
+	font-size:2.3rem ;
+}
+
+
+/* cards */
+
+.three-cards{
+	padding: 90px 0;
+}
+
+.card-body img, .item-result img,
+.three-cards img
+{
+	width: 85px;
+}
+
+.three-cards .max{
+	max-width: 480px;
+}
+
+.three-cards .card-item{
+	padding: 50px 30px;
+	margin-bottom: 20px;
+	height: 320px;
+}
+
+
+.three-cards p{
+	font-size: 1.1rem;
+}
+
+.three-cards h3{
+	color:#333366 ;
+}
+
+.card-1{
+	background-color: #fff1e4;
+}
+
+.card-2{
+	background-color: #f8f9fb;
+}
+
+.card-3{
+	background-color: #f0f5f9;
+}
+
+.three-cards .max h3{
+	color: #21bf72;
+	font-size: .9rem;
+}
+
+/** check **/
+
+.checks .container{
+	background-color: #f0f5f9;
+	padding: 120px;
+}
+
+.checks ul{
+	padding: 0;
+	width: 200px;
+}
+
+.checks ul li{
+	padding: 0 0 20px 35px;
+	list-style: none;
+	background: url("../images/tik.png") no-repeat;
+	background-position: left top;
+	background-size: 25px;
+}
+
+p{
+	font-size: 1.2rem;
+	color: #888;
+}
+
+p.lighter{
+	color: #bbb;
+}
+
+.checks p{
+	font-size: 1.3rem;
+}
+
+.checks li{
+	color: #777;
+	font-weight: 600;
+}
+
+
+.checks .max{
+	max-width: 550px;
+}
+
+/*** result ****/
+
+.result{
+	margin: 80px 0;
+}
+
+.result .container{
+	padding: 0 50px;
+}
+
+.result .max{
+	max-width: 580px;
+}
+
+.result .max h3{
+	font-size:1rem;
+}
+
+.result img{
+	margin-bottom: 15px;
+}
+
+.item-result{
+	width: 250px;
+}
+
+.item-result h3{
+	margin-bottom: 15px;
+	font-size: 1.6rem;
+	font-weight: 800;
+	color: #333366;
+}
+
+.item-result p{
+	font-size: 1.1rem;
+	color: #999;
+}
+
+/** story **/
+
+.story .container{
+	background-color:#f0f5f9 ;
+	padding: 120px 50px 50px;
+}
+
+.story #quote{
+	position: relative;
+	text-indent: 80px;
+	line-height: 1.5;
+}
+
+#quote img{
+	width: 70px;
+	position: absolute;
+	top: -20px;
+	left: 0;
+}
+
+.story .story-heading.max{
+	max-width: 400px;
+}
+
+.story .media .blue{
+	font-weight: 600;
+}
+
+.story #quote.max{
+	max-width: 500px;
+}
+
+.story .card{
+	background-color: transparent;
+	border: none;
+}
+
+.story .media img{
+	width: 60px;
+}
+
+.story .media p{
+	font-size: 1rem;
+}
+
+/** PRICING **/
+
+.pricing{
+	padding: 100px 0;
+}
+
+.pricing .card{
+	background-color: #f0f5f9;
+	border: none;
+}
+
+.pricing img{
+	width: 120px;
+}
+
+.pricing .max{
+	max-width: 660px;
+}
+
+.pricing .h3{
+	font-weight: 800;
+	font-size: 1.5rem;
+}
+
+.pricing .btn{
+	width: 170px;
+}
+
+.pricing .price{
+	font-size:2.8rem;
+	color: #666;
+	font-family:'Segoe UI';
+}
+
+.pricing .time{
+	font-size: 1rem;
+	color: #555;
+}
+
+.pricing .max .lighter{
+	font-size: 1.3rem;
+}
+
+/** Question **/
+
+.question .container{
+	padding: 100px;
+	background-color: #f0f5f9;
+}
+
+.question .accordion h5{
+	position: relative;
+}
+
+.question .accordion span{
+	position: absolute;
+	top: 50%;
+	right: 10px;
+	transform: translateY(-50%);
+}
+
+.question .card-body{
+	line-height: 1.7;
+}
+
+.accordion .row .border-bottom{
+	padding: 30px 10px;
+	min-width:380px;
+}
+
+/**** sign up *****/
+
+.sign-up .container{
+	padding: 100px 0;
+
+}
+
+.sign-up input{
+	padding: 10px 25px;
+	width: 350px;
+	margin: 0 auto;
+	outline: 0;
+	border: 0;
+	background-color:#f0f5f9 ;
+}
+
+.sign-up h3{
+	font-size: 1rem;
+	color: #21bf72;
+}
+
+.sign-up .btn-green{
+	width: 170px;
+	letter-spacing: 1px;
+	border-top-left-radius: 0;
+	border-bottom-left-radius: 0;
+}
+
+.sign-up .max{
+	max-width: 800px;
+	margin: 0 auto;
+}
+
+/*** footer ***/
+
+footer{
+	background-color: #f0f5f9;
+	padding: 18px 0 35px;
+	text-align: center;
+}
+
+footer .navbar-brand{
+	color: #21bf72;
+	letter-spacing: 4px;
+}
+
+footer .nav-link{
+	font-weight: bold;
+}
+
+footer a + ul li{
+	margin-left: 5px;
+	padding: 5px 5px;
+}
+
+footer img{
+	width:25px;
+}
+
+@media screen and (max-width:768px){
+
+	.question .container{
+		padding: 100px 20px;
+	}
+
+	footer ul li{
+		margin: 0 20px;
+	}
+
+	.sign-up .btn-green{
+		margin: 20px;
+		border-top-left-radius: 3px;
+		border-bottom-left-radius: 3px;
+		background-color: red;
+	}
+	
+}
